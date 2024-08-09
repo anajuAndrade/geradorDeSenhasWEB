@@ -15,8 +15,10 @@ const geraSenha = (e)=>{
         }
     
         document.getElementById("mostrarSenha").innerHTML = `<h3>${senha}</h3>`;
+        alert("A senha será gerada com sucesso!");
     }
 
 }
 
 document.getElementById("btn").addEventListener("click", geraSenha);
+
